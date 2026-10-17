@@ -12,8 +12,11 @@ def select_by_category(features, category):
     """
     # TODO：创建结果列表，遍历 features，检查类别，收集匹配项，返回结果。
     # 提示与需要的 Python 语法见 docs/01-first-lesson.md。
-    raise NotImplementedError("请先完成第一课的筛选函数")
-
+    result=[]
+    for feature in features:
+        if feature["properties"]["category"]==category:
+            result.append(feature)
+    return result
 
 def main():
     project_dir = Path(__file__).resolve().parents[1]
