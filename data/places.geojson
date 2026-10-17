@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "poi-001",
+      "properties": {
+        "name": "教学医院甲",
+        "category": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.4737, 31.2304]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "poi-002",
+      "properties": {
+        "name": "教学公园",
+        "category": "park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.4785, 31.2333]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "poi-003",
+      "properties": {
+        "name": "教学医院乙",
+        "category": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.49, 31.24]
+      }
+    }
+  ]
+}
