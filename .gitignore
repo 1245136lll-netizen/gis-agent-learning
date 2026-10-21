@@ -24,3 +24,8 @@ outputs/*
 .idea/
 .vscode/
 .DS_Store
+
+# Lesson 6 GLM upgrade payload and local backups
+.lesson06-glm-update/
+.lesson06-glm-backups/
+gis-agent-lesson-06-glm.zip

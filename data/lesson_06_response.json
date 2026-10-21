@@ -1,0 +1,24 @@
+{
+  "id": "chatcmpl-offline-lesson06",
+  "object": "chat.completion",
+  "created": 0,
+  "model": "offline-glm-example",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "reasoning_content": "教学占位字段：本课提取最终回答时不使用这个字段。",
+        "content": "查询半径用米表示，便于表达实际地面距离。经纬度的单位是度，不能直接当成米。本项目先用 WGS 84 测地线计算得到米制距离，再与查询半径比较。",
+        "tool_calls": null
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0
+  }
+}
